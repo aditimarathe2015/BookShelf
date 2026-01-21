@@ -1,0 +1,80 @@
+
+[
+    {
+        "id": 1,
+        "image": "every.jpg",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year_published": 1960,
+        "genre": "Fiction",
+        "cost": "$10.99"
+    },
+    {
+        "id": 2,
+        "image": "happiness.jpg",
+        "title": "1984",
+        "author": "George Orwell",
+        "year_published": 1949,
+        "genre": "Dystopian",
+        "cost": "$9.99"
+    },
+    {
+        "id": 3,
+        "image": "life.jpg",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year_published": 1925,
+        "genre": "Classic",
+        "cost": "$12.99"
+    },
+    {
+        "id": 4,
+        "image": "title.jpg",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "year_published": 1951,
+        "genre": "Fiction",
+        "cost": "$8.99"
+    },
+    {
+        "id": 5,
+        "image": "life.jpg",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year_published": 1813,
+        "genre": "Romance",
+        "cost": "$11.99"
+    },
+    {
+        "id": 6,
+        "image": "every.jpg",
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year_published": 1937,
+        "genre": "Fantasy",
+        "cost": "$14.99"
+
+    },
+    {
+        "id": 7,
+        "image": "happiness.jpg",
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "year_published": 1953,
+        "genre": "Dystopian",
+        "cost": "$13.99"
+    },
+    {
+        "id": 8,
+        "image": "title.jpg",
+        "title  ": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "year_published": 1954,
+        "genre": "Fantasy",
+        "cost": "$16.99"
+
+    }
+
+    
+
+]

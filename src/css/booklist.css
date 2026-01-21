@@ -1,0 +1,39 @@
+
+/* Flex layout: control items-per-row by setting item width
+     Setting .book-item to 33.333% yields 3 items per row on wide screens
+     Remaining items wrap to the next line automatically. */
+.book-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        max-width: 900px;
+        margin: 16px auto;
+}
+.book-item {
+        box-sizing: border-box;
+        /* 3 columns on wide screens */
+         flex: 0 0 20%; 
+        padding: 1px;
+        text-align: center;
+}
+.book-item img {
+        width: 200px;
+        max-width: 180px;
+        height: auto;
+        display: inline-block;
+}
+
+/* Responsive: 2 columns on smaller screens */
+@media (max-width: 800px) {
+    .book-item {
+        flex: 0 0 50%;
+    }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 420px) {
+    .book-item {
+        flex: 0 0 100%;
+    }
+}

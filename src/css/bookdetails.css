@@ -1,0 +1,21 @@
+.book-details{
+    display: flex;
+  flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 16px auto;
+
+}
+.book-image{
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+.buy-now{
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    color: white;
+
+}
